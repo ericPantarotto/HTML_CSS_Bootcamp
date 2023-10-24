@@ -1,0 +1,51 @@
+body {
+  background-color: #463d36;
+  font-family: sans-serif;
+}
+
+.container {
+  background-color: white;
+  color: #463d36;
+
+  width: 600px;
+  margin: 100px auto;
+
+  padding-top: 60px;
+  padding-left: 40px;
+  padding-right: 200px;
+  padding-bottom: 40px;
+
+  border-radius: 20px;
+}
+
+h1,
+h2 {
+  margin: 0;
+  text-transform: uppercase;
+}
+
+.container h1 {
+  font-size: 40px;
+  font-weight: lighter;
+}
+
+.container h2 {
+  font-size: 28px;
+  color: #a6192e;
+  font-weight: bold;
+}
+
+.container p {
+  font-size: 28px;
+}
+
+.container button {
+  background-color: #463d36;
+  color: white;
+
+  font-size: 24px;
+  padding: 30px 40px;
+  text-transform: uppercase;
+  font-weight: bold;
+  height: 30%;
+}
