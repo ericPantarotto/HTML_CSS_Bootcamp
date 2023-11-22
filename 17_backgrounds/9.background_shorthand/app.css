@@ -1,0 +1,10 @@
+.box {
+  border: 2px solid black;
+  height: 700px;
+  width: 400px;
+  /* background: url("images/peacock.png") no-repeat center/125%; */
+  
+  /* NOTE: background shorthand can be layered */
+  background: url("images/peacock.png") no-repeat center/125%,
+    url("images/sunset.jpg") no-repeat center/cover;
+}
