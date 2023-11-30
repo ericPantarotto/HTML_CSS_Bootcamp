@@ -3,6 +3,11 @@ p {
   background-color: magenta;
   margin: 30px;
   font-size: 2rem;
-  position: static;
-  left: 23px;
+}
+
+#special {
+  position: relative;
+  background-color: yellow;
+  top: 200px;
+  left: 40px;
 }
