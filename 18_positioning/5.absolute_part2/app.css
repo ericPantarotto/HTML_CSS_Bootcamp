@@ -1,0 +1,16 @@
+.box {
+  background-color: olive;
+  height: 200px;
+  width: 200px;
+  display: inline-block;
+  /* NOTE: comment below and see how the children span of that box now float with the root and not the box */
+  position: relative; 
+}
+
+.box span {
+  color: white;
+  background-color: orangered;
+  position: absolute;
+  right: 0;
+  top: 0;
+}
