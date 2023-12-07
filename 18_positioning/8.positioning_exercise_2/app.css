@@ -2,10 +2,17 @@
   background-color: red;
   width: 400px;
   height: 400px;
+  position: relative;
 }
 
 .box {
-  width: 100px;
-  height: 100px;
-  background-color: blue;
+  /* width: 100px;
+  height: 100px; */
+  /* HACK: replacing px size with % to allow the inner box element to always be proportionate to its parent new size */
+  width: 25%;
+  height: 25%;
+
+  background-color: blue;position: absolute;
+  top: 37.5%;
+  right: -12.5%;
 }
