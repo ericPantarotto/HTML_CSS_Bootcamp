@@ -1,0 +1,14 @@
+.sidebar {
+  width: 20%;
+  height: 100vh;
+  background-color: orchid;
+  position: fixed;
+  bottom: 0;
+  right: 0;
+}
+
+.sidebar button {
+  position: absolute;
+  right: 0;
+  top: 0;
+}
