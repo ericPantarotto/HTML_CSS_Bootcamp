@@ -1,0 +1,16 @@
+.box {
+  width: 100px;
+  height: 100px;
+  background-color: olive;
+  display: inline-block;
+}
+
+.first {
+  background-color: orangered;
+  transform: translate(100px, 200px);
+  
+  /* NOTE: it would be moved by 50% of that element width*/
+  /* transform: translateX(50%); */
+
+  /* margin-left: 400px; */
+}
