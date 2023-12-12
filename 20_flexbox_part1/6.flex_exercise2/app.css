@@ -7,6 +7,17 @@ h1 {
   margin: 0 auto;
   width: 1000px;
   height: 800px;
+
+
+  display: flex;
+  flex-direction: column;
+  
+  /* Part 1 */
+  justify-content: space-between;
+
+  /* Part 2 */
+  /* justify-content: flex-end;
+  flex-direction: column-reverse; */
 }
 
 span {
