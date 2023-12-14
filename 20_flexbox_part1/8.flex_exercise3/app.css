@@ -7,6 +7,23 @@ h1 {
   margin: 0 auto;
   width: 1200px;
   height: 800px;
+
+  display: flex;
+  flex-direction: row;
+  /* part1 */
+  /* flex-direction: row; */
+  /* justify-content: center;
+  align-items: center; */
+
+  /* part2 */
+  /* flex-direction: row; */
+  /* justify-content: space-around;
+  align-items: flex-end; */
+  
+  /* part3 */
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: center;
 }
 span {
   width: 200px;
