@@ -1,0 +1,19 @@
+h1 {
+  font-size: 3rem;
+}
+
+body {
+  background-color: red;
+}
+
+/* @media (max-width: 600px) or (min-width: 1500px) {
+  body {
+    background-color: purple;
+  }
+} */
+
+@media not (min-width: 600px) {
+  body {
+    background-color: purple;
+  }
+}

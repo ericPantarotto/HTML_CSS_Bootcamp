@@ -2,12 +2,6 @@ h1 {
   font-size: 3rem;
 }
 
-/* @media only print {
-  h1 {
-    font-size: 10rem;
-  }
-} */
-
 body {
   background-color: red;
 }
@@ -28,11 +22,5 @@ body {
     content: "landscape - ";
   }
 }
-/* 
-@media only screen and (min-width: 800px) {
-  body {
-    background-color: orange;
-  }
-} */
 
 /* HACK: https://developer.mozilla.org/en-US/docs/Web/CSS/@media#media_features */
