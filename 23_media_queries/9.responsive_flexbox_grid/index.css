@@ -1,0 +1,47 @@
+.container {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.box {
+  /* margin: 40px; */
+  flex: 1 1 20%;
+  border: 4px solid white;
+  box-sizing: border-box;
+  height: 300px;
+  background-color: steelblue;
+}
+
+/* HACK: so that the last box doesn't take the entire white space available */
+.box:last-of-type {
+  flex-grow: 0;
+}
+
+.box:nth-of-type(2n) {
+  background-color: lightseagreen;
+}
+
+
+
+@media only screen and (max-width: 1400px) {
+  .box {
+    flex: 1 1 25%;
+  }
+}
+
+@media only screen and (max-width: 1000px) {
+  .box {
+    flex: 1 1 33.3333%;
+  }
+}
+
+@media only screen and (max-width: 700px) {
+  .box {
+    flex: 1 1 50%;
+  }
+}
+@media only screen and (max-width: 500px) {
+  .box {
+    flex: 1 1 100%;
+  }
+}
