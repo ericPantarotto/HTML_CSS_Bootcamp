@@ -1,0 +1,18 @@
+/*  
+Style the container div 
+  - 6 columns, each 1 fraction.  USE REPEAT!
+  - 4 rows, each 100 pixels.  USE REPEAT!
+  - 10px gaps between rows and columns
+*/
+
+
+.container {
+  width: 80%;
+  /* height: 100vh; */
+  margin: 100px auto;
+  background-color: black;
+  box-shadow: 0 6px 20px rgba(227, 183, 183, 0.2);
+  display: grid;
+  grid-template: repeat(5, 100px) / repeat(6, 1fr);
+  gap: 10px 10px;
+}
