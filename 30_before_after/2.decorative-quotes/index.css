@@ -1,0 +1,57 @@
+.blockquote {
+  font-size: 3rem;
+  font-style: italic;
+  width: 50%;
+  position: relative;
+  margin-bottom: 100px;
+}
+
+.quote {
+  font-size: 6rem;
+  background-color: grey;
+  display: inline-flex;
+  justify-content: center;
+  color: white;
+  height: 60px;
+  width: 60px;
+  border-radius: 50%;
+}
+
+.no-pseudo {
+  position: relative;
+}
+.left {
+  position: absolute;
+  top: -50px;
+}
+.right {
+  position: absolute;
+  bottom: -50px;
+  right: 0;
+
+}
+
+blockquote {
+  font-size: 3rem;
+  font-style: italic;
+  width: 50%;
+  position: relative;
+}
+
+
+blockquote::before {
+  content: open-quote;
+  top: -50px;
+  left: -50px;
+}
+blockquote::after {
+  content: close-quote;
+  bottom: -100px;
+  right: -30px;
+}
+
+blockquote::after,
+blockquote::before {
+  font-size: 6rem;
+  position: absolute;
+}
