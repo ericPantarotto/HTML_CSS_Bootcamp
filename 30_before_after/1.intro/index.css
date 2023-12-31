@@ -1,0 +1,19 @@
+/* MDN before after pseudo classes
+https://developer.mozilla.org/en-US/docs/Web/CSS/::before
+https://developer.mozilla.org/en-US/docs/Web/CSS/::after */
+
+h1 {
+  font-size: 5rem;
+}
+
+h1::before {
+  content: "";
+  height: 20px;
+  width: 20px;
+  background: purple;
+  display: inline-block;
+}
+
+h1::after {
+  content: "-AFTER!";
+}
