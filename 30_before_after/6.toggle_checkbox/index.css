@@ -1,0 +1,54 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  font-family: sans-serif;
+}
+
+.toggle {
+  opacity: 0;
+}
+
+.toggle + label {
+  position: relative;
+  padding-left: 5rem;
+  padding-top: 0.65rem;
+}
+
+.toggle + label::before {
+  content: "";
+  background-color: #c6d0cc;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 4.7rem;
+  height: 2.7rem;
+  border-radius: 1.25rem;
+  transition: background-color 0.2s;
+  transition: border-color 0.2s;
+
+  box-sizing: border-box;
+  border: 2px solid #20b776;
+}
+
+.toggle + label::after {
+  content: "";
+  width: 2rem;
+  height: 2rem;
+  border-radius: 50%;
+  background-color: white;
+  position: absolute;
+  top: 0.3rem;
+  left: 0.3rem;
+  transition: transform 0.2s;
+}
+
+.toggle:checked + label::before {
+  background-color: #20b776;
+  border-color: #c6d0cc;
+}
+
+.toggle:checked + label::after {
+  transform: translateX(2rem);
+}
