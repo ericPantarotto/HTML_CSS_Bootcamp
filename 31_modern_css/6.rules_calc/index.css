@@ -1,0 +1,15 @@
+:root {
+  --spacing: 10px;
+}
+.box1 {
+  background-color: tomato;
+  height: 300px;
+  /* NOTE: for the below always add a space */
+  /* width: calc(50% + 2px); */ 
+  /* NOTE: nested calc */
+  /* width: calc(calc(50% - 200px) * 2) ;  */
+
+  width: calc(var(--spacing) * 20);
+  float: left;
+  margin-right: 20px;
+}
